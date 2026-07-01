@@ -1,79 +1,142 @@
-# Grid Dash
+<div align="center">
+  <img src="assets/icons/GridDash_Icon_Full.png" alt="Grid Dash logo" width="120">
+  <h1>Grid Dash</h1>
+  <p><strong>A modern, modular SimHub dashboard for racing displays, phones, tablets, and full-screen pit walls.</strong></p>
+  <p>
+    <a href="https://griddashhub.com/">Website</a> ·
+    <a href="https://cdn.shopify.com/s/files/1/0692/0614/7120/files/GridDashSetup.exe?v=1782926842">Download for Windows</a> ·
+    <a href="https://github.com/mikedmor/simhub-griddash/releases">Releases</a> ·
+    <a href="https://github.com/mikedmor/simhub-griddash/issues">Report an issue</a>
+  </p>
+</div>
 
-**A modern, modular SimHub dashboard for racing displays, phones, tablets, and full-screen pit walls.**
+![Grid Dash running as a SimHub racing dashboard](assets/featured_image.png)
 
-Grid Dash turns live SimHub telemetry into flexible dashboards that are easy to read at speed and simple to adapt to different cars, games, and screens. Use it as a compact driver HUD, a dedicated phone or tablet display, or a multi-screen Pit Wall for timing, strategy, and race awareness.
+Grid Dash transforms live SimHub telemetry into polished, flexible dashboards that are easy to read
+at speed. Run a compact driver display, turn a phone or tablet into a dedicated dash, or open a
+full-screen Pit Wall for timing, strategy, and race awareness.
 
-## Highlights
+## Why Grid Dash?
 
-- **Modular dashboards** — build layouts from shift lights, gear, speed, tachometer, lap timing, fuel, tyres, pedals, standings, radar, track maps, weather, damage, and more.
-- **Visual layout editor** — drag, resize, add, remove, and configure widgets directly in the browser with collision-aware grid placement.
-- **Per-game profiles** — automatically switch layouts, themes, units, and display modes when the active game changes.
-- **Pit Wall mode** — switch between leaderboard, track map, and telemetry-focused screens on a second monitor.
-- **Phone and tablet layouts** — use any modern browser on your local network, with an Android kiosk companion available for dedicated display devices.
-- **Themes and accessibility** — customize colors, brightness, corner radius, night modes, high-contrast gear, larger text, and flag labels.
-- **Interactive controls** — cycle multifunction widget slots from the touchscreen or bind them to SimHub hardware actions.
-- **Persistent track maps** — learn and save circuit outlines from telemetry where supported.
-- **Local-first operation** — telemetry rendering and dashboard configuration stay on your devices and local network.
+- **Ready to race** — start with polished layouts instead of an empty canvas.
+- **Built around your games** — profiles automatically select the right layout, theme, units, and
+  display mode when the active game changes.
+- **Designed for every screen** — use a wheel display, desktop browser, second monitor, phone, or
+  tablet.
+- **Easy to personalize** — arrange modules visually, create reusable components, and tune complete
+  color themes from inside SimHub.
+- **Local-first** — live telemetry and dashboard rendering stay on your PC and local network.
+- **Made for SimHub** — Grid Dash works alongside the telemetry tools and hardware integrations you
+  already use.
+
+## Make it yours
+
+Grid Dash includes reusable layouts, configurable components, dashboard themes, animated idle
+screens, and per-game assignments. Customize one design and reuse it across the cars, games, and
+screens that suit your setup.
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/Shopify%20Images/SimHubCustomizeLayouts.png" alt="Grid Dash layout management in SimHub">
+      <br><strong>Reusable layouts</strong><br>
+      Assign dashboard designs by game, select units and themes, and preview changes before driving.
+    </td>
+    <td width="50%">
+      <img src="assets/Shopify%20Images/SimHubCustomizeThemes.png" alt="Grid Dash theme editor in SimHub">
+      <br><strong>Complete themes</strong><br>
+      Tune dashboard colors and visual states with a live preview inside SimHub.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="assets/Shopify%20Images/SimHubCreateComponent.png" alt="Grid Dash component designer">
+      <br><strong>Component Designer</strong><br>
+      Build reusable telemetry components from configurable layers with an immediate visual preview.
+    </td>
+    <td width="50%">
+      <img src="assets/Shopify%20Images/SimHubCustomizeIdleScreen.png" alt="Grid Dash idle screen customization">
+      <br><strong>Personalized idle screens</strong><br>
+      Create a finished waiting screen with colors, driver details, clocks, and animated effects.
+    </td>
+  </tr>
+</table>
+
+## Features
+
+- Driver dashboards with shift lights, gear, speed, RPM, lap timing, delta, fuel, tyres, pedals,
+  standings, radar, track maps, weather, damage, flags, and more
+- Drag-and-drop visual layout editor with resizing and collision-aware grid placement
+- Custom component designer with reusable, configurable layers
+- Per-game profiles for layouts, themes, units, and display behavior
+- Full-screen Pit Wall views for standings, circuit position, timing, and telemetry
+- Responsive phone and tablet layouts
+- Custom themes, night-friendly displays, accessibility options, and animated idle screens
+- Touch controls and SimHub hardware-action support
+- Circuit learning and persistent track maps where telemetry permits
+- Server discovery and QR-assisted mobile connection
+
+Exact data availability varies by game and by the telemetry exposed through SimHub. Grid Dash hides
+or gracefully adapts modules when a value is unavailable.
 
 ## Requirements
 
-- Windows PC running [SimHub](https://www.simhubdash.com/)
-- SimHub configured for a supported racing or driving title
+- A Windows PC running [SimHub](https://www.simhubdash.com/)
+- A supported racing or driving title configured in SimHub
 - A modern browser for dashboard displays
-- Local network access when using a phone, tablet, or another computer
+- Local network access for phones, tablets, and other computers
 
-Telemetry varies between games. Widgets gracefully hide or fall back when a title does not provide a particular value.
+## Install Grid Dash
 
-## Installation
-
-1. Install and configure SimHub.
-2. Download the newest Grid Dash installer from [Releases](https://github.com/mikedmor/simhub-griddash/releases).
-3. Close SimHub before running the installer so its plugin files are not locked.
+1. Install and configure [SimHub](https://www.simhubdash.com/).
+2. [Download the Grid Dash installer](https://cdn.shopify.com/s/files/1/0692/0614/7120/files/GridDashSetup.exe?v=1782926842).
+3. Close SimHub before running the installer so its plugin files can be updated safely.
 4. Restart SimHub and enable **Grid Dash** when prompted.
-5. Open **Grid Dash** from SimHub's left menu to configure the server, profiles, themes, layouts, and license.
+5. Select **Grid Dash** from SimHub's left menu to configure your server, layouts, themes, and
+   license.
 
-> Release packages will appear on the Releases page as public builds become available.
+The lightweight installer downloads and verifies the current Grid Dash release. Future updates can
+be checked from within Grid Dash.
 
-## Connecting a Display
+## Connect a display
 
-Grid Dash serves dashboards directly from the gaming PC:
+Grid Dash serves dashboards from your gaming PC:
 
-- **This PC:** `http://localhost:8920/`
-- **Phone, tablet, or another computer:** `http://<server-pc-ip>:8920/`
-- **Pit Wall:** `http://localhost:8920/?mode=pitwall`
+| Display | Address |
+| --- | --- |
+| Gaming PC | `http://localhost:8920/` |
+| Phone, tablet, or another computer | `http://<server-pc-ip>:8920/` |
+| Pit Wall | `http://localhost:8920/?mode=pitwall` |
 
-The SimHub settings page shows the correct URLs for your network and provides a QR code for quickly opening Grid Dash on a mobile device. The default port can be changed in settings.
+The Grid Dash page inside SimHub shows the correct address for your network and provides a QR code
+for fast mobile connections. The default port can be changed in settings.
 
-## Dashboard Modes
+## Android companion
 
-### Driver Dash
+The Grid Dash Android companion turns a spare phone or tablet into a focused racing display. It can
+discover available rigs on your local network, remember previously connected servers, open QR/deep
+links, lock the connected dashboard to landscape, maintain screen brightness, and support kiosk-style
+use.
 
-A compact, highly readable race display for shift lights, gear, speed, delta, lap timing, fuel, tyres, inputs, flags, and nearby traffic.
+Visit [griddashhub.com](https://griddashhub.com/) for Android availability and installation details.
 
-### Pit Wall
+## Licensing
 
-A second-screen race view with switchable leaderboard, map, and telemetry pages for broader timing and strategy information.
+Grid Dash can be installed and evaluated in a limited free mode. A paid license unlocks the complete
+feature set, with one-year, five-year, and lifetime update options available from the
+[Grid Dash store](https://griddashhub.com/products/simhub-grid-dashboard).
 
-### Mobile
+- One active Windows device per license
+- Up to three activations or device transfers per rolling year
+- Activate inside Grid Dash using your purchase email and order number
+- Deactivate the current PC before moving the license whenever possible
+- Versions released during a paid update term remain entitled after that term ends
 
-Responsive phone and tablet layouts designed for touch interaction and dedicated dash mounting.
+The public installer and GitHub release files never contain customer credentials or license keys.
 
-## Customization
+## Supported titles
 
-Grid Dash includes named dashboard presets, per-game profiles, configurable themes, and typed options for individual widgets. The editor can save an override for the active game without changing the original preset, making it easy to experiment or maintain different layouts for different titles.
-
-## Licensing and Updates
-
-Grid Dash is designed to be installable in a limited free mode, with licensed versions unlocking the complete feature set. License options provide lifetime, one-year, or five-year update eligibility.
-
-Licenses support one active device at a time and up to three activation or transfer events per rolling year. Activating on another PC transfers the license; deactivating the current PC releases it for reuse. Versions published during a paid update term remain entitled after that term ends, while newer releases require renewal or run in limited mode.
-
-Public release downloads are not license keys and contain no customer credentials. Activation is handled inside Grid Dash using the purchase email and order number.
-
-## Supported Titles
-
-Grid Dash includes profiles and graceful telemetry fallbacks for a growing range of titles, including:
+Grid Dash includes profiles and telemetry fallbacks for a growing range of games, including:
 
 - Assetto Corsa and Assetto Corsa Competizione
 - Automobilista 2
@@ -85,25 +148,33 @@ Grid Dash includes profiles and graceful telemetry fallbacks for a growing range
 - EA Sports WRC and other rally titles
 - American Truck Simulator and Euro Truck Simulator 2
 
-Exact widget availability depends on the telemetry exposed by SimHub and each game.
+## Releases
 
-## Support and Feedback
+This repository is used to publish Grid Dash release files and release notes. It does not contain the
+Grid Dash source code.
 
-Use [GitHub Issues](https://github.com/mikedmor/simhub-griddash/issues) for reproducible bugs and release-package problems. Please include:
+Most users should install Grid Dash through the
+[official Windows installer](https://cdn.shopify.com/s/files/1/0692/0614/7120/files/GridDashSetup.exe?v=1782926842)
+and allow its signed update process to select and verify the correct package. Files on the
+[Releases page](https://github.com/mikedmor/simhub-griddash/releases) are also consumed by the
+installer and in-app updater.
 
-- Grid Dash version
-- SimHub version
+## Support and feedback
+
+For reproducible bugs or release-package problems, open a
+[GitHub issue](https://github.com/mikedmor/simhub-griddash/issues) and include:
+
+- Grid Dash and SimHub versions
 - Game and car
-- Display/browser or Android device
+- Display, browser, or Android device
 - Steps to reproduce
 - Relevant SimHub log excerpts
 
-Do not post order details, activation tokens, license files, or other private account information in a public issue.
-
-## Status
-
-Grid Dash is under active development. Features, supported telemetry, installers, and licensing behavior may evolve before the first public production release.
+For purchase, billing, refund, or private activation help, use the contact options at
+[griddashhub.com](https://griddashhub.com/). Do not post order numbers, purchase email addresses,
+activation tokens, license files, or other private account information in a public issue.
 
 ## Disclaimer
 
-Grid Dash is an independent SimHub add-on and is not affiliated with SimHub or any racing game developer or publisher.
+Grid Dash is an independent SimHub add-on. It is not affiliated with SimHub or with any racing game
+developer or publisher. All product names and trademarks belong to their respective owners.
