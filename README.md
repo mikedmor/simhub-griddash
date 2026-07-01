@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/icons/GridDash_Icon_Full.png" alt="Grid Dash logo" width="120">
+  <img src="assets/logo.png" alt="Grid Dash logo" width="120">
   <h1>Grid Dash</h1>
   <p><strong>A modern, modular SimHub dashboard for racing displays, phones, tablets, and full-screen pit walls.</strong></p>
   <p>
@@ -10,7 +10,7 @@
   </p>
 </div>
 
-![Grid Dash running as a SimHub racing dashboard](assets/featured_image.png)
+![Grid Dash running as a SimHub racing dashboard](assets/hero.png)
 
 Grid Dash transforms live SimHub telemetry into polished, flexible dashboards that are easy to read
 at speed. Run a compact driver display, turn a phone or tablet into a dedicated dash, or open a
@@ -38,24 +38,24 @@ screens that suit your setup.
 <table>
   <tr>
     <td width="50%">
-      <img src="assets/Shopify%20Images/SimHubCustomizeLayouts.png" alt="Grid Dash layout management in SimHub">
+      <img src="assets/layouts.png" alt="Grid Dash layout management in SimHub">
       <br><strong>Reusable layouts</strong><br>
       Assign dashboard designs by game, select units and themes, and preview changes before driving.
     </td>
     <td width="50%">
-      <img src="assets/Shopify%20Images/SimHubCustomizeThemes.png" alt="Grid Dash theme editor in SimHub">
+      <img src="assets/themes.png" alt="Grid Dash theme editor in SimHub">
       <br><strong>Complete themes</strong><br>
       Tune dashboard colors and visual states with a live preview inside SimHub.
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="assets/Shopify%20Images/SimHubCreateComponent.png" alt="Grid Dash component designer">
+      <img src="assets/component-designer.png" alt="Grid Dash component designer">
       <br><strong>Component Designer</strong><br>
       Build reusable telemetry components from configurable layers with an immediate visual preview.
     </td>
     <td width="50%">
-      <img src="assets/Shopify%20Images/SimHubCustomizeIdleScreen.png" alt="Grid Dash idle screen customization">
+      <img src="assets/idle-screen.png" alt="Grid Dash idle screen customization">
       <br><strong>Personalized idle screens</strong><br>
       Create a finished waiting screen with colors, driver details, clocks, and animated effects.
     </td>
