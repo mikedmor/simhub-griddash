@@ -118,7 +118,7 @@ discover available rigs on your local network, remember previously connected ser
 links, lock the connected dashboard to landscape, maintain screen brightness, and support kiosk-style
 use.
 
-Visit [griddashhub.com](https://griddashhub.com/) for Android availability and installation details.
+Join the open beta on [Google Play](https://play.google.com/store/apps/details?id=com.mikedmor.griddash).
 
 ## Licensing
 
