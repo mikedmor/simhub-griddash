@@ -1,5 +1,5 @@
 <div align="center">
-  [<img src="assets/logo.png" alt="Grid Dash logo" width="120">](https://griddashhub.com/)
+  <a href="https://griddashhub.com/" target="_blank"><img src="assets/logo.png" alt="Grid Dash logo" width="120"></a>
   <h1>Grid Dash</h1>
   <p><strong>A modern, modular SimHub dashboard for racing displays, phones, tablets, and full-screen pit walls.</strong></p>
   <p>
