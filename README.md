@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Grid Dash logo" width="120">
+  <a href="https://griddashhub.com/" target="_blank"><img src="assets/logo.png" alt="Grid Dash logo" width="120"></a>
   <h1>Grid Dash</h1>
   <p><strong>A modern, modular SimHub dashboard for racing displays, phones, tablets, and full-screen pit walls.</strong></p>
   <p>
     <a href="https://griddashhub.com/">Website</a> ·
-    <a href="https://cdn.shopify.com/s/files/1/0692/0614/7120/files/GridDashSetup.exe?v=1782926842">Download for Windows</a> ·
+    <a href="https://github.com/mikedmor/simhub-griddash/releases/latest/download/GridDashSetup.exe">Download for Windows</a> ·
     <a href="https://github.com/mikedmor/simhub-griddash/releases">Releases</a> ·
     <a href="https://github.com/mikedmor/simhub-griddash/issues">Report an issue</a>
   </p>
@@ -89,7 +89,7 @@ or gracefully adapts modules when a value is unavailable.
 ## Install Grid Dash
 
 1. Install and configure [SimHub](https://www.simhubdash.com/).
-2. [Download the Grid Dash installer](https://cdn.shopify.com/s/files/1/0692/0614/7120/files/GridDashSetup.exe?v=1782926842).
+2. [Download the Grid Dash installer](https://github.com/mikedmor/simhub-griddash/releases/latest/download/GridDashSetup.exe).
 3. Close SimHub before running the installer so its plugin files can be updated safely.
 4. Restart SimHub and enable **Grid Dash** when prompted.
 5. Select **Grid Dash** from SimHub's left menu to configure your server, layouts, themes, and
@@ -118,7 +118,7 @@ discover available rigs on your local network, remember previously connected ser
 links, lock the connected dashboard to landscape, maintain screen brightness, and support kiosk-style
 use.
 
-Join the open beta on [Google Play](https://play.google.com/store/apps/details?id=com.mikedmor.griddash).
+Install now on [Google Play](https://play.google.com/store/apps/details?id=com.mikedmor.griddash).
 
 ## Licensing
 
@@ -154,7 +154,7 @@ This repository is used to publish Grid Dash release files and release notes. It
 Grid Dash source code.
 
 Most users should install Grid Dash through the
-[official Windows installer](https://cdn.shopify.com/s/files/1/0692/0614/7120/files/GridDashSetup.exe?v=1782926842)
+[official Windows installer](https://github.com/mikedmor/simhub-griddash/releases/latest/download/GridDashSetup.exe)
 and allow its signed update process to select and verify the correct package. Files on the
 [Releases page](https://github.com/mikedmor/simhub-griddash/releases) are also consumed by the
 installer and in-app updater.
